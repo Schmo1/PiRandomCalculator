@@ -54,7 +54,7 @@ namespace PiRandomCalculator
 
             }
 
-            return 4 * circle/square;
+            return (4 * circle)/square;
 
         }
     }
