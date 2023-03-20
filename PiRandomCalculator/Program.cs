@@ -14,7 +14,14 @@ namespace PiRandomCalculator
 
             if(inputValid )
             {
-                Console.WriteLine(RandomPi(input)); ;
+                try
+                {
+                    Console.WriteLine(RandomPi(input)); ;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
             else
             {
